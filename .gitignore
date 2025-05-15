@@ -1,0 +1,29 @@
+# Node modules (ไลบรารีทั้งหมดที่ npm ติดตั้ง)
+node_modules/
+
+# ข้อมูลลับ เช่น JWT_SECRET, MONGO_URI
+.env
+
+# ไฟล์ lock ของระบบ package (ให้ใช้เฉพาะคนเดียว)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (ถ้าใช้ร่วมกับทีม อาจ ignore ได้)
+.vscode/
+
+# ไฟล์ build (ถ้ามีในอนาคต)
+dist/
+build/
+
+# coverage จากการทดสอบ (ถ้ามีการใช้ Jest หรือ test framework)
+coverage/
